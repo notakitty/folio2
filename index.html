@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Portfolio</title>
+    <link rel="stylesheet" href="/css/dark-theme.css">
+    <link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif; /* This font is just an example, choose what you prefer */
+            background-color: #1c1c1c;
+            color: white;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        #lightgallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        #lightgallery a {
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        #lightgallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+        #lightgallery a:hover img {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
+        /* Add other styling as needed */
+    </style>
+</head>
+<body>
+<header>
+    <h1>lightGallery</h1>
+    <p>A lightweight, modular, JavaScript image and video lightbox gallery plugin.</p>
+    <!-- Add navigation and other header content as needed -->
+</header>
+
+<main>
+    <div id="lightgallery">
+        <!-- Add your gallery items here -->
+        <a href="/folio2/assets/ALDI_study.png">
+            <img src="/folio2/assets/ALDI_study.png" alt="ALDI Study">
+        </a>
+        <a href="/folio2/assets/backstudy.png">
+            <img src="/folio2/assets/backstudy.png" alt="Back Study">
+        </a>
+        <a href="/folio2/assets/bred.png">
+            <img src="/folio2/assets/bred.png" alt="Bread">
+        </a>
+        <a href="/folio2/assets/brushtest2watercolorfinal.png">
+            <img src="/folio2/assets/brushtest2watercolorfinal.png" alt="Brush Test Watercolor">
+        </a>
+        <a href="/folio2/assets/orangestudy.png">
+            <img src="/folio2/assets/orangestudy.png" alt="Orange Study">
+        </a>
+        <a href="/folio2/assets/portrait_512sqrblk_t5.png">
+            <img src="/folio2/assets/portrait_512sqrblk_t5.png" alt="Portrait">
+        </a>
+        <a href="/folio2/assets/rainbowshapes_web.png">
+            <img src="/folio2/assets/rainbowshapes_web.png" alt="Rainbow Shapes">
+        </a>
+        <a href="/folio2/assets/study_male.png">
+            <img src="/folio2/assets/study_male.png" alt="Male Study">
+        </a>
+        <a href="/folio2/assets/sunny_study.png">
+            <img src="/folio2/assets/sunny_study.png" alt="Sunny Study">
+        </a>
+        <a href="/folio2/assets/violet2.png">
+            <img src="/folio2/assets/violet2.png" alt="Violet">
+        </a>
+        <!-- Repeat for each image -->
+    </div>
+
+
+</main>
+
+<footer>
+      <p>&copy; 2023 Your Name. All rights reserved.</p>
+</footer>
+
+<script src="/js/lightgallery.min.js"></script>
+<script>
+    lightGallery(document.getElementById('lightgallery'));
+</script>
+</body>
+</html>

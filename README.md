@@ -23,9 +23,12 @@ This repository contains the source code for my art portfolio website, designed 
 - Each section represents a curated collection of artwork, sorted by content type.
 
 ## Gallery Sections
-- **[Section Name 1]**: Description of this section's content.
-- **[Section Name 2]**: Description of this section's content.
-- **[More Sections]**: Add more sections as needed.
+- Fantasy Art
+- Card Art
+- Sketches
+- Stickers
+- Sculpture
+
 
 ## Setup and Deployment
 1. Clone the repository.

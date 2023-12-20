@@ -39,13 +39,12 @@ This repository contains the source code for my art portfolio website, designed 
 ## Current Features
 - Initial setup of `lightGallery` for an elegant presentation of artwork.
 - Basic structure of the `index.html` page with a dark theme applied.
+- Navbar
+- Separated gallery bit
 
 ## Upcoming Features and To-Do List
-- [ ] **Gallery Sections**: Create and categorize different sections for the artwork, such as paintings, sketches, digital art, etc.
-- [ ] **Artist Information**: Add a dedicated section or page with a biography and artist statement.
-- [ ] **Modularize Navigation**: Separate gallery navigation links into a different file for better maintainability, possibly using a server-side include or a JavaScript solution for client-side.
-- [ ] **Art Selection**: Implement a process for selecting and featuring certain artworks prominently.
-- [ ] **Social Media and Contact**: Add hyperlinks to social media profiles and a contact method (email or contact form).
+- [ ] **Gallery Pages**: Create the pages then link their respective galleries
+- [ ] **About**: About + contact. how to add email with botting prevention?
 
 ## Performance and Optimization
 - [ ] Test the website thoroughly outside of the IDE to ensure compatibility and performance.
@@ -65,7 +64,6 @@ This repository contains the source code for my art portfolio website, designed 
 ## Maintenance
 - [ ] Document the process for adding new art pieces to the gallery.
 - [ ] Establish a maintenance guide for updating the website's code and dependencies.
-
-## Getting Involved
-- Interested in contributing or have suggestions? Please reach out via [email](mailto:your-email@example.com) or on [Twitter](https://twitter.com/yourusername), [Instagram](https://instagram.com/yourusername), etc.
+- [ ] Document on usage for people starting from this page to use as a template
+- [ ] Copyright: separate the code from the art
 

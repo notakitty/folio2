@@ -65,4 +65,5 @@ This repository contains the source code for my art portfolio website, designed 
 - [ ] Document the process for adding new art pieces to the gallery.
 - [ ] Establish a maintenance guide for updating the website's code and dependencies.
 - [ ] Document on usage for people starting from this page to use as a template
+- [ ] Copyright: separate the code from the art
 

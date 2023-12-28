@@ -43,8 +43,9 @@ This repository contains the source code for my art portfolio website, designed 
 - Separated gallery bit
 
 ## Upcoming Features and To-Do List
-- [ ] **Gallery Pages**: Create the pages then link their respective galleries
-- [ ] **About**: About + contact. how to add email with botting prevention?
+- [ ] change lightgallery settings for better fitting
+- [ ] check and fix gallery links
+- [ ] clean up unused files
 
 ## Performance and Optimization
 - [ ] Test the website thoroughly outside of the IDE to ensure compatibility and performance.
